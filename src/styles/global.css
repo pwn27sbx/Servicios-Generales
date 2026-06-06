@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Opcional: Aquí puedes poner configuraciones personalizadas si las necesitas,
+   pero el @import anterior es lo único obligatorio para que Tailwind funcione */
