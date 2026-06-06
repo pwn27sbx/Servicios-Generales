@@ -329,7 +329,7 @@ export default function RubiconLanding() {
             <span>&copy; {new Date().getFullYear()} Servicios Generales. Todos los derechos reservados.</span>
           </div>
           <div className="text-slate-500 text-sm">
-            Diseñado con tecnología moderna
+
           </div>
         </div>
       </footer>
