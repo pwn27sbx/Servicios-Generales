@@ -57,7 +57,7 @@ export default function RubiconLanding() {
                 <Car className="text-slate-900 w-6 h-6 md:w-8 md:h-8" />
               </div>
               <div>
-                <h1 className={`font-black text-xl md:text-2xl tracking-tight ${isScrolled ? 'text-white' : 'text-white'}`}>RUBICON</h1>
+                <h1 className={`font-black text-xl md:text-2xl tracking-tight ${isScrolled ? 'text-white' : 'text-white'}`}>ERE</h1>
                 <p className="text-[10px] md:text-xs text-amber-500 font-bold tracking-widest uppercase">Servicios Generales</p>
               </div>
             </div>
