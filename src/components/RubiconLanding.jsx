@@ -329,7 +329,7 @@ export default function RubiconLanding() {
                     <div className="w-4 h-4 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
                     <div className="w-4 h-4 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
                   </div>
-                  <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Tacna</span>
+                  <span className="mt-2 text-white font-bold text-xs bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Tacna</span>
                 </div>
 
                 {/* Juliaca */}
@@ -338,7 +338,7 @@ export default function RubiconLanding() {
                     <div className="w-3 h-3 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
                     <div className="w-3 h-3 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
                   </div>
-                  <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Juliaca</span>
+                  <span className="mt-2 text-white font-bold text-xs bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Juliaca</span>
                 </div>
 
                 {/* Overlay text */}
