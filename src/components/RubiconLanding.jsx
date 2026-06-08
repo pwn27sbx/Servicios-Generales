@@ -128,20 +128,20 @@ export default function RubiconLanding() {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/95 to-slate-900/50"></div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-16">
-          <div className="max-w-3xl">
+          {/* CAMBIO 1: max-w-3xl a max-w-5xl para dar más espacio horizontal */}
+          <div className="max-w-5xl">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-500 mb-6 backdrop-blur-sm">
               <Building2 className="w-4 h-4" />
               <span className="text-sm font-bold tracking-wide uppercase">Socios Estratégicos B2B & B2C</span>
             </div>
 
-            <h2 className="text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight mb-6">
-              Soporte Integral para <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Industria y Minería</span>
+            {/* CAMBIO 2: Ajuste de text-7xl a text-6xl en pantallas grandes y eliminación del <br/> */}
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1.1] tracking-tight mb-6">
+              Soporte Integral de{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
+                Lavado Industrial, Mantenimiento Estético, Lavado Especializado y Planchado y Pintura </span><span>para</span><span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600"> Maquinaria Pesada, Flotas de Consecionarias, Empresas del rubro automotriz,
+              </span> estandares rigurosos para toda la zona del sur del país.
             </h2>
-
-            <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
-              Soporte integral de <strong>Lavado Industrial, Mantenimiento Estético, Lavado Espacializo asi como Planchado y Pintura</strong> para <strong>maquinaria pesada, flotas de concesionarias y empresas del rubro automotriz</strong>. Estándares rigurosos para toda la zona sur del Perú.
-            </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contacto" className="inline-flex items-center justify-center gap-2 bg-amber-500 text-slate-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-amber-400 transition-all hover:scale-105 shadow-lg shadow-amber-500/20">
