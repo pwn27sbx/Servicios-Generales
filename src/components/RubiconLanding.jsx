@@ -140,7 +140,7 @@ export default function RubiconLanding() {
             </h2>
 
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
-              Mantenimiento estético, lavado especializado y planchado para <strong>maquinaria pesada, flotas de concesionarias, empresas del rubro automotriz y vehículos particulares</strong>. Estándares rigurosos para toda la zona sur del Perú.
+              Mantenimiento estético, lavado especializado y planchado para <strong>maquinaria pesada, flotas de concesionarias y empresas del rubro automotriz</strong>. Estándares rigurosos para toda la zona sur del Perú.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
