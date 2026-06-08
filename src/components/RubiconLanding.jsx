@@ -214,7 +214,7 @@ export default function RubiconLanding() {
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Lavado de vehículos livianos y flotas comerciales </h3>
               <p className="text-slate-600 mb-6">Estética vehicular avanzada para vehículos ejecutivos, camionetas de supervisión y particulares.</p>
               <ul className="space-y-3">
-                {['Lavado Automático de Vapor y a Detalle', 'Lavado a Presión', 'Lavado de Salón', 'Lavado de Chasis y Motor', 'Encerado'].map((item, i) => (
+                {['Lavado Automático','Lavado en Seco y a Vapor', 'Lavado a Presión', 'Lavado de Salón', 'Lavado de Chasis y Motor', 'Encerado'].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                     <span className="text-slate-700 font-medium">{item}</span>
@@ -266,7 +266,7 @@ export default function RubiconLanding() {
 
               {/* Badges de locaciones */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-3">
-                {['Arequipa - Sede Principal', 'Mollendo', 'Moquegua', 'Ilo', 'Tacna'].map((ciudad, idx) => (
+                {['Arequipa - Sede Principal', 'Mollendo', 'Moquegua', 'Ilo', 'Tacna', 'Juliaca'].map((ciudad, idx) => (
                   <div key={idx} className="bg-slate-800/80 backdrop-blur-sm border border-slate-700 px-5 py-2.5 rounded-lg flex items-center gap-2 hover:border-amber-500/50 transition-colors">
                     <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
                     <span className="text-slate-200 font-semibold">{ciudad}</span>
@@ -288,7 +288,7 @@ export default function RubiconLanding() {
 
                 {/* Marcadores del Mapa */}
                 {/* Arequipa */}
-                <div className="absolute top-[25%] left-[45%] flex flex-col items-center group cursor-default">
+                <div className="absolute top-[10%] left-[45%] flex flex-col items-center group cursor-default">
                   <div className="relative">
                     <div className="w-4 h-4 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
                     <div className="w-4 h-4 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
@@ -297,7 +297,7 @@ export default function RubiconLanding() {
                 </div>
 
                 {/* Mollendo */}
-                <div className="absolute top-[40%] left-[25%] flex flex-col items-center group cursor-default">
+                <div className="absolute top-[30%] left-[30%] flex flex-col items-center group cursor-default">
                   <div className="relative">
                     <div className="w-3 h-3 bg-amber-400 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.8)] z-10 relative"></div>
                     <div className="w-3 h-3 bg-amber-400 rounded-full absolute inset-0 animate-ping opacity-75"></div>
@@ -306,7 +306,7 @@ export default function RubiconLanding() {
                 </div>
 
                 {/* Moquegua */}
-                <div className="absolute top-[55%] left-[58%] flex flex-col items-center group cursor-default">
+                <div className="absolute top-[45%] left-[58%] flex flex-col items-center group cursor-default">
                   <div className="relative">
                     <div className="w-3 h-3 bg-amber-400 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.8)] z-10 relative"></div>
                     <div className="w-3 h-3 bg-amber-400 rounded-full absolute inset-0 animate-ping opacity-75"></div>
@@ -315,7 +315,7 @@ export default function RubiconLanding() {
                 </div>
 
                 {/* Ilo */}
-                <div className="absolute top-[68%] left-[38%] flex flex-col items-center group cursor-default">
+                <div className="absolute top-[60%] left-[40%] flex flex-col items-center group cursor-default">
                   <div className="relative">
                     <div className="w-3 h-3 bg-amber-400 rounded-full shadow-[0_0_10px_rgba(251,191,36,0.8)] z-10 relative"></div>
                     <div className="w-3 h-3 bg-amber-400 rounded-full absolute inset-0 animate-ping opacity-75"></div>
@@ -324,12 +324,21 @@ export default function RubiconLanding() {
                 </div>
 
                 {/* Tacna */}
-                <div className="absolute top-[80%] left-[70%] flex flex-col items-center group cursor-default">
+                <div className="absolute top-[60%] left-[75%] flex flex-col items-center group cursor-default">
                   <div className="relative">
                     <div className="w-4 h-4 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
                     <div className="w-4 h-4 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
                   </div>
                   <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Tacna</span>
+                </div>
+
+                {/* Juliaca */}
+                <div className="absolute top-[50%] left-[15%] flex flex-col items-center group cursor-default">
+                  <div className="relative">
+                    <div className="w-3 h-3 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
+                    <div className="w-3 h-3 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
+                  </div>
+                  <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Juliaca</span>
                 </div>
 
                 {/* Overlay text */}
