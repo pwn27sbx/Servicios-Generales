@@ -140,7 +140,7 @@ export default function RubiconLanding() {
             </h2>
 
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
-              Mantenimiento estético, lavado especializado y planchado para <strong>maquinaria pesada, flotas de concesionarios y vehículos particulares</strong>. Estándares rigurosos para los terrenos más exigentes del sur peruano.
+              Soporte integral de <strong>Lavado Industrial, Mantenimiento Estético, Lavado Espacializo asi como Planchado y Pintura</strong> para <strong>maquinaria pesada, flotas de concesionarias y empresas del rubro automotriz</strong>. Estándares rigurosos para toda la zona sur del Perú.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -182,9 +182,9 @@ export default function RubiconLanding() {
             <span className="text-amber-600 font-bold tracking-widest uppercase text-sm flex items-center justify-center gap-2 mb-3">
               <Factory className="w-5 h-5" /> Catálogo de Especialidades
             </span>
-            <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-6">Rendimiento óptimo para su maquinaria</h2>
+            <h2 className="text-3xl md:text-5xl font-black text-slate-900 mb-6">Rendimiento óptimo para sus vehículos y maquinarias</h2>
             <p className="text-slate-600 text-lg">
-              Adaptamos nuestros procesos a las exigencias de empresas contratistas, concesionarios y clientes exigentes, asegurando la preservación de sus activos.
+              Adaptamos nuestros procesos a las exigencias de las concesionarias y empresas privadas, asegurando la preservacion de sus activos.
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function RubiconLanding() {
               <div className="bg-slate-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
                 <Tractor className="w-8 h-8 text-slate-700 group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Lavado Industrial y de Maquinaria</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Lavado Industrial y de Maquinaria Pesada</h3>
               <p className="text-slate-600 mb-6">Remoción profunda de minerales, barro y grasas pesadas para maquinaria amarilla y flotas logísticas.</p>
               <ul className="space-y-3">
                 {['Hidrolavado de Alta Presión', 'Desengrasado de Chasis y Motor', 'Atención en Base o Taller'].map((item, i) => (
@@ -211,10 +211,10 @@ export default function RubiconLanding() {
               <div className="bg-slate-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
                 <Car className="w-8 h-8 text-slate-700 group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Detailing y Flotas Comerciales</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Lavado de vehículos livianos y flotas comerciales </h3>
               <p className="text-slate-600 mb-6">Estética vehicular avanzada para vehículos ejecutivos, camionetas de supervisión y particulares.</p>
               <ul className="space-y-3">
-                {['Restauración de Interiores', 'Tratamiento de Pintura y Cuero', 'Aplicación de Undercoating'].map((item, i) => (
+                {['Lavado Automático de Vapor y a Detalle', 'Lavado a Presión', 'Lavado de Salón', 'Lavado de Chasis y Motor', 'Encerado'].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                     <span className="text-slate-700 font-medium">{item}</span>
@@ -228,7 +228,7 @@ export default function RubiconLanding() {
               <div className="bg-slate-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-amber-500 transition-colors duration-300">
                 <Wrench className="w-8 h-8 text-slate-700 group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Planchado y Pintura Automotriz</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Planchado y Pintura Vehicular y Maquinaria Pesada</h3>
               <p className="text-slate-600 mb-6">Restauración estructural y estética con cabinas presurizadas y pintura de alto tráfico (poliuretano).</p>
               <ul className="space-y-3">
                 {['Reparación de Siniestros', 'Pintura Epóxica y Poliuretano', 'Tratamientos Anticorrosivos'].map((item, i) => (
@@ -261,12 +261,12 @@ export default function RubiconLanding() {
                 <span className="text-amber-500">Todo el Sur del Perú</span>
               </h2>
               <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-                Nuestra capacidad operativa nos permite desplazarnos y atender requerimientos corporativos y de maquinaria pesada en las principales zonas mineras, puertos y ciudades del sur del país.
+                Nuestra capacidad operativa nos permite desplazarnos y atender requerimientos corporativos en consecionarias de vehiculos livianos, camiones y maquinaria pesada en las ciudades del sur del país, teniendo nuestra sede principal en Arequipa.
               </p>
 
               {/* Badges de locaciones */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-3">
-                {['Arequipa', 'Mollendo', 'Moquegua', 'Ilo', 'Tacna'].map((ciudad, idx) => (
+                {['Arequipa - Sede Principal', 'Mollendo', 'Moquegua', 'Ilo', 'Tacna'].map((ciudad, idx) => (
                   <div key={idx} className="bg-slate-800/80 backdrop-blur-sm border border-slate-700 px-5 py-2.5 rounded-lg flex items-center gap-2 hover:border-amber-500/50 transition-colors">
                     <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
                     <span className="text-slate-200 font-semibold">{ciudad}</span>
@@ -293,7 +293,7 @@ export default function RubiconLanding() {
                     <div className="w-4 h-4 bg-amber-500 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.8)] z-10 relative"></div>
                     <div className="w-4 h-4 bg-amber-500 rounded-full absolute inset-0 animate-ping opacity-75"></div>
                   </div>
-                  <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Arequipa</span>
+                  <span className="mt-2 text-white font-bold text-sm bg-slate-800/90 px-3 py-1 rounded-md backdrop-blur-sm border border-slate-600 transition-all group-hover:scale-110 group-hover:border-amber-500 shadow-lg">Arequipa - Sede Principal</span>
                 </div>
 
                 {/* Mollendo */}
